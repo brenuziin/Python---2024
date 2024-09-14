@@ -17,7 +17,7 @@ print(f"Idade: {idade}")
 print(f"Primeira Nota: {notaUm}")
 print(f"Segunda Nota: {notaDois}")
 print(f"Soma das Unidades: {soma}")
-print(f"Média Aritmetrica: {media}")
+print(f"Média Aritmetrica: {round(media,2)}")
 
 if media > 7:
     print("O aluno foi Aprovado!!!")
