@@ -22,5 +22,5 @@ while True:
         print("Opção inválida.")
 
     true_opcao = input("Deseja continuar (S/N)? ").upper()
-    if continuar_opcao != 'S':
+    if continuar_opcao!= 'S':
         continuar = False
