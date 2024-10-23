@@ -1,0 +1,18 @@
+import os
+os.system ("clear || cls")
+contador = 0
+
+for i in range (1,4):
+    nota = float(input(f"Digite sua {i}º Nota: "))
+    contador += nota
+
+media = contador / 3
+
+os.system("clear || cls")
+print(f"Sua média das unidades é: {media:.1f}")
+if media > 7.0:
+    print("Aluno foi APROVADO!!")
+elif media > 5 and media < 6.9:
+    print("Aluno está na RECUPERAÇÃO!!")
+else:
+    print("Aluno Foi REPROVADO!!")
